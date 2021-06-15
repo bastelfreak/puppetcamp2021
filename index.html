@@ -250,7 +250,7 @@ class: center, middle, inverse
 ![img](contributors.svg)
 ]
 
-.footnote[[@Was1NicerDude](https://twitter.com/Was1NicerDude) & [@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
+.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
 
 ???
 
@@ -286,15 +286,19 @@ background-size: cover
 
 .right-column[
 
-![imagefoo](stdlib7.png)
+* new major releases in modules
+
+![imagefoo](vcsrepo.png)
 
 ]
 
-.footnote[[@Was1NicerDude](https://twitter.com/Was1NicerDude) & [@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
+.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
 
 ???
 
 Puppetlabs releases a new major version of stdlib
+
+metadata.json needs to be adjusted everywhere (upper version boundaries)
 ---
 
 .left-column[
@@ -304,11 +308,13 @@ Puppetlabs releases a new major version of stdlib
 
 .right-column[
 
+* `metadata.json` in a puppet module
+
 ![imagefoo](deps.png)
 
 ]
 
-.footnote[[@Was1NicerDude](https://twitter.com/Was1NicerDude) & [@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
+.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
 
 ???
 
@@ -325,17 +331,19 @@ Puppetlabs releases a new major version of stdlib
 
 .right-column[
 
+* new major Puppet release
+
 ![imagefoo](puppet.png)
 
 ]
 
-.footnote[[@Was1NicerDude](https://twitter.com/Was1NicerDude) & [@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
+.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
 
 ???
 
 * of course the same applies for the puppet version
 * Dear puppet: a headsup info for a new release would be dope
-
+* also lower bounds needs to be increased for major releases
 ---
 
 .left-column[
@@ -349,7 +357,7 @@ Puppetlabs releases a new major version of stdlib
 
 ]
 
-.footnote[[@Was1NicerDude](https://twitter.com/Was1NicerDude) & [@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
+.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
 
 ???
 
@@ -367,7 +375,7 @@ Puppetlabs releases a new major version of stdlib
 ![imagefoo](labels.png)
 ]
 
-.footnote[[@Was1NicerDude](https://twitter.com/Was1NicerDude) & [@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
+.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
 
 ???
 
@@ -394,7 +402,7 @@ Puppetlabs releases a new major version of stdlib
   * .travis.yml, Gemfile, Rakefile
 ]
 
-.footnote[[@Was1NicerDude](https://twitter.com/Was1NicerDude) & [@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
+.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
 
 ???
 
@@ -414,12 +422,21 @@ Puppetlabs releases a new major version of stdlib
 * Now maintained by Vox Pupuli
 
 * a template directory + configuration file for every module
+
+
+
+* Take a look at modulesync: [github.com/voxpupuli/modulesync](https://github.com/voxpupuli/modulesync#modulesync)
+
+* The Vox Pupuli template repo: [github.com/voxpupuli/modulesync_config](https://github.com/voxpupuli/modulesync_config#modulesync-configs)
 ]
 
-.footnote[[@Was1NicerDude](https://twitter.com/Was1NicerDude) & [@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
+.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
 
 ???
 
+* it's a very generic tool
+
+* we also use it for our gems, not only puppet modules
 ---
 
 .left-column[
@@ -434,7 +451,7 @@ Puppetlabs releases a new major version of stdlib
 ![img](releases.png)
 ]
 
-.footnote[[@Was1NicerDude](https://twitter.com/Was1NicerDude) & [@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
+.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
 
 ???
 
@@ -470,7 +487,7 @@ class: center, middle, inverse
 * [All open PRs with green CI and no merge conflicts](https://github.com/pulls?utf8=%E2%9C%93&q=is%3Aopen+is%3Apr+user%3Avoxpupuli+archived%3Afalse+status%3Asuccess+sort%3Aupdated-desc+-label%3Amerge-conflicts)
 ]
 
-.footnote[[@Was1NicerDude](https://twitter.com/Was1NicerDude) & [@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
+.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
 
 ???
 
@@ -495,7 +512,7 @@ class: center, middle, inverse
 
 ]
 
-.footnote[[@Was1NicerDude](https://twitter.com/Was1NicerDude) & [@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
+.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
 
 ???
 
@@ -517,7 +534,7 @@ Changelog:
 
 ]
 
-.footnote[[@Was1NicerDude](https://twitter.com/Was1NicerDude) & [@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
+.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
 
 ???
 
@@ -539,7 +556,7 @@ Changelog:
 ![img](email.png)
 ]
 
-.footnote[[@Was1NicerDude](https://twitter.com/Was1NicerDude) & [@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
+.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
 
 ???
 
@@ -560,7 +577,7 @@ Changelog:
 ![img](epp.png)
 ]
 
-.footnote[[@Was1NicerDude](https://twitter.com/Was1NicerDude) & [@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
+.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
 
 ???
 
@@ -585,7 +602,7 @@ class: center, middle, inverse
 ]
 ]
 
-.footnote[[@Was1NicerDude](https://twitter.com/Was1NicerDude) & [@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
+.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
 
 ???
 
@@ -612,7 +629,7 @@ class: center, middle, inverse
   * information in files in every repository
 ]
 
-.footnote[[@Was1NicerDude](https://twitter.com/Was1NicerDude) & [@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
+.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
 
 ???
 ---
@@ -641,7 +658,7 @@ count: false
 ## Uhm, I guess
 ]
 
-.footnote[[@Was1NicerDude](https://twitter.com/Was1NicerDude) & [@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
+.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
 
 ???
 ---
@@ -655,7 +672,7 @@ count: false
 ![img](vpt_dashboard.png)
 ]
 
-.footnote[[@Was1NicerDude](https://twitter.com/Was1NicerDude) & [@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
+.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
 
 ???
 
@@ -673,7 +690,7 @@ count: false
 * Refreshed every 6 hours
 ]
 
-.footnote[[@Was1NicerDude](https://twitter.com/Was1NicerDude) & [@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
+.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
 
 ???
 
@@ -691,7 +708,7 @@ count: false
 * Refreshed every 6 hours
 ]
 
-.footnote[[@Was1NicerDude](https://twitter.com/Was1NicerDude) & [@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
+.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
 
 ???
 
@@ -707,7 +724,7 @@ count: false
 ![img](vpt_repo.png)
 ]
 
-.footnote[[@Was1NicerDude](https://twitter.com/Was1NicerDude) & [@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
+.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
 
 ???
 
@@ -736,7 +753,7 @@ class: center, middle, inverse
 ![img](VPT-overview.jpg)
 ]
 
-.footnote[[@Was1NicerDude](https://twitter.com/Was1NicerDude) & [@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
+.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
 
 ???
 ---
@@ -766,7 +783,7 @@ case type
 ```
 ]
 
-.footnote[[@Was1NicerDude](https://twitter.com/Was1NicerDude) & [@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
+.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
 
 ???
 
@@ -809,7 +826,7 @@ end
 ```
 ]
 
-.footnote[[@Was1NicerDude](https://twitter.com/Was1NicerDude) & [@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
+.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
 
 ???
 
@@ -824,7 +841,7 @@ end
 <img src="pr_label_1.png" alt="drawing" style="width: 650px"/>
 ]
 
-.footnote[[@Was1NicerDude](https://twitter.com/Was1NicerDude) & [@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
+.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
 
 ???
 
@@ -839,7 +856,7 @@ end
 <img src="pr_label_2.png" alt="drawing" style="width: 700px"/>
 ]
 
-.footnote[[@Was1NicerDude](https://twitter.com/Was1NicerDude) & [@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
+.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
 
 ???
 
@@ -854,7 +871,7 @@ end
 ![img](pr_label_3.png)
 ]
 
-.footnote[[@Was1NicerDude](https://twitter.com/Was1NicerDude) & [@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
+.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
 
 ???
 
@@ -869,7 +886,7 @@ end
 <img src="pr_label_4.png" alt="drawing" style="width: 450px"/>
 ]
 
-.footnote[[@Was1NicerDude](https://twitter.com/Was1NicerDude) & [@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
+.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
 
 ???
 
@@ -884,7 +901,7 @@ end
 <img src="sidekiq.png" alt="drawing" style="width: 800px"/>
 ]
 
-.footnote[[@Was1NicerDude](https://twitter.com/Was1NicerDude) & [@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
+.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
 
 ???
 
@@ -910,7 +927,7 @@ class: center, middle, inverse
 * Automate more labeling on issues and pull requests
 ]
 
-.footnote[[@Was1NicerDude](https://twitter.com/Was1NicerDude) & [@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
+.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
 
 ???
 
@@ -934,7 +951,7 @@ count: false
 * Implement GitLab API support
 ]
 
-.footnote[[@Was1NicerDude](https://twitter.com/Was1NicerDude) & [@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
+.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
 
 ???
 
@@ -960,7 +977,7 @@ count: false
 * Help companies that want to host this on premise for internal repositories
 ]
 
-.footnote[[@Was1NicerDude](https://twitter.com/Was1NicerDude) & [@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
+.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
 
 ???
 
@@ -988,7 +1005,7 @@ count: false
 ### Thanks for your attention!
 ]
 
-.footnote[[@Was1NicerDude](https://twitter.com/Was1NicerDude) & [@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
+.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
 
 ???
 
